@@ -1,0 +1,15 @@
+node_modules
+typings
+logs
+.env
+.vscode
+Patients0.json
+Patients1.json
+Patients2.json
+Patients3.json
+Patients4.json
+seedData.json
+SellableItemOutletDispatchLogs.json
+SchemeMemberships.json
+Patients.json
+SchemeMemberships.json
