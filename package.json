@@ -5,26 +5,26 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start":"nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "Chukwuemeka Ugwuanyi (HealthStation Ltd.)",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
-    "bcrypt": "^1.0.3",
-    "boom": "^4.0.0",
-    "cors": "^2.8.4",
-    "cron": "^1.3.0",
-    "dotenv": "^4.0.0",
-    "emailjs": "^1.0.12",
-    "hapi": "^15.1.1",
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "cron": "^1.7.1",
+    "dotenv": "^8.0.0",
+    "emailjs": "^2.2.0",
+    "hapi": "^18.1.0",
     "hapi-auth-jwt": "^4.0.0",
-    "joi": "^13.1.2",
-    "log4js": "^1.1.0",
-    "mongojs": "^2.4.0",
-    "nodemailer": "^4.1.0",
-    "poop": "^2.0.2",
-    "shortid": "^2.2.6",
+    "joi": "^14.3.1",
+    "log4js": "^4.5.1",
+    "mongojs": "^2.6.0",
+    "nodemailer": "^6.3.0",
+    "poop": "^3.0.1",
+    "shortid": "^2.2.14",
     "xoauth2": "^1.2.0"
   }
 }
