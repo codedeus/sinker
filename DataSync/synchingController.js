@@ -60,22 +60,13 @@ const GetNewAliens = function (localEntities, tenantStore, NewEntityDateMark,IsS
         var allNeighbours = [];
         var doneCount = 0;
 		
-		var index = collectionNames.indexOf('Patient');
-		
-		logger.debug('before splicing...'+collectionNames.length);
-		
-		collectionNames.splice(index,1);
-		logger.debug('after splicing...'+collectionNames.length);
-		
         collectionNames.forEach(function (collectionName) {
 
             //If there's any entity that is not already a part of the reply payload, and whose last update mark is after our marker, 
             //then add them to the reply payload. 
             //TODO: Take care of the edge case where multiple clients submit updates at EXACTLY the same time.//
             //  Hmmmmmm......... *Head scratching*
-
-            
-			
+		
             var entityCollection = tenantStore.collection(collectionName);
             
             NewEntityDateMark = new Date(NewEntityDateMark);
